@@ -2,6 +2,6 @@ import React from "react"
 
 export default function Home() {
   return <div>
-    <img></img>
+    <img src=""></img>
     Hello world!</div>
 }
