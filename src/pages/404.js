@@ -8,4 +8,4 @@ const Error = () => {
   )
 }
 
-export default 404
+export default Error
