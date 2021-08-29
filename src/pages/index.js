@@ -2,7 +2,6 @@ import React from "react"
 
 export default function Home() {
 
-  return <div>    
-
-    Hello world!</div>
+  return <h1>    
+    Hello world!</h1>
 }
