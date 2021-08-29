@@ -1,11 +1,9 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class contact extends Component {
-  render() {
-    return (
-      <div>
-        contact page
-      </div>
-    )
-  }
+export default function contact() {
+  return (
+    <div>
+      testing contact page
+    </div>
+  )
 }
