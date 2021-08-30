@@ -4,6 +4,9 @@ import {Link} from 'gatsby'
 export default function Home() {
   return (
   <div>
+    <nav>
+      
+    </nav>
     <h1>    
       hello people</h1>
       <div>
