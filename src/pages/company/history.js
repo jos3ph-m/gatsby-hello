@@ -7,6 +7,7 @@ const history = () => {
     <h2>
       This is the history of our company
     </h2>
+    <Link to="/">Home</Link>
     </div>
   )
 }
