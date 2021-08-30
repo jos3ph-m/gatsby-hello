@@ -5,10 +5,7 @@ import Navbar from '../components/Navbar'
 export default function Home() {
   return (
   <div>
-    <nav>
-      <Link to="/">home</Link>
-      <Link to="/about">about</Link>
-    </nav>
+    <Navbar />
     <h1>    
       hello people</h1>
       <div>
