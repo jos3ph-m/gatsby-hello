@@ -2,5 +2,5 @@ import React from "react"
 
 export default function Home() {
   return <h1>    
-    hello from gatsby</h1>
+    hello people</h1>
 }
