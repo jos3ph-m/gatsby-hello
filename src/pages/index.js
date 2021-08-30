@@ -7,7 +7,7 @@ export default function Home() {
   <Layout>
 
     <h1>    
-      hello people</h1>
+      Home page</h1>
       <div>
     <Link to="/about">About</Link>
     </div>
