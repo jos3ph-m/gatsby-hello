@@ -1,9 +1,10 @@
 import React from "react"
 import {Link} from 'gatsby'
+import Layout from '../components/Layout'
 
 export default function Home() {
   return (
-  <div>
+  <Layout>
 
     <h1>    
       hello people</h1>
@@ -13,6 +14,6 @@ export default function Home() {
       <div>
     <Link to="/company/history">History</Link>
     </div>
-  </div>
+  </Layout>
   )
 }
