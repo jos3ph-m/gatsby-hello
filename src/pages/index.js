@@ -5,7 +5,8 @@ export default function Home() {
   return (
   <div>
     <nav>
-      
+      <Link to="/">home</Link>
+      <Link to="/about">about</Link>
     </nav>
     <h1>    
       hello people</h1>
