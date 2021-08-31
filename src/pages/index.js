@@ -5,8 +5,11 @@ import Layout from '../components/Layout'
 export default function Home() {
   return (
   <Layout>
+    <div className="home-header">
 
-    <h1 style={{color: "green", textTransform: "capitalize"}}>    
+    </div>
+
+    <h1>    
       Home page</h1>
       <div>
     <Link to="/about">About</Link>
