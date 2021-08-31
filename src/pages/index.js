@@ -6,7 +6,7 @@ export default function Home() {
   return (
   <Layout>
 
-    <h1 style={{color: "red"}}>    
+    <h1 style={{color: "red", textTransform: "capitalize"}}>    
       Home page</h1>
       <div>
     <Link to="/about">About</Link>
