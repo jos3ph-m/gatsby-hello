@@ -6,7 +6,7 @@ export default function Home() {
   return (
   <Layout>
 
-    <h1>    
+    <h1 style={{}}>    
       Home page</h1>
       <div>
     <Link to="/about">About</Link>
