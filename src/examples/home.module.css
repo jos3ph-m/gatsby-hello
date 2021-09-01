@@ -2,6 +2,10 @@
   color: blue;
 }
 
+.page h1 {
+  color: blueviolet;
+}
+
 .text{
   text-transform: capitalize;
 }
