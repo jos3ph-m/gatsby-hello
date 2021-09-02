@@ -16,11 +16,11 @@ const about = () => {
 }
 
 const Wrapper = styled.section`
-.page {
-  color: pink;
-}
 
-.page h1 {
+  color: pink;
+
+
+h1 {
   color: yellowgreen;
 }
 
