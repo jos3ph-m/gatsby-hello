@@ -8,6 +8,7 @@ export default function Home() {
   return (
   <Layout>
     <div className={page}>
+      <ExampleButton>click me</ExampleButton>
     <h1>Home page</h1>
     <h1>Hello page</h1>
     <h1>Home hello</h1>
