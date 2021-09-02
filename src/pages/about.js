@@ -6,10 +6,10 @@ import styled from 'styled-components';
 const about = () => {
   return (
     <Layout>
-      <div className={aboutStyles.page}>
+      <Wrapper>
       <h1>about page</h1>
-      <p className={aboutStyles.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, earum.</p>
-      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, earum.</p>
+      </Wrapper>
       
     </Layout>
   )
