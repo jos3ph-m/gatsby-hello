@@ -8,7 +8,7 @@ const about = () => {
     <Layout>
       <Wrapper>
       <h1>about page</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, earum.</p>
+      <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, earum.</p>
       </Wrapper>
       
     </Layout>
