@@ -14,7 +14,9 @@ const Contact = () => {
           <p>Synth kogi letterpress church-key activated charcoal man bun typewriter fugiat mollit. Ut DIY prism stumptown irony. Gastropub tbh distillery non. Photo booth tacos craft beer, cornhole aesthetic cold-pressed nulla glossier. Art party iPhone vexillologist, pickled scenester selfies next level marfa tote bag velit taxidermy readymade slow-carb adaptogen cupidatat.</p>
           </article>
           <article>
-            <form action="" className="form contact-form"></form>
+            <form action="" className="form contact-form">
+              <div className="form-row"></div>
+            </form>
           </article>
         </section>
       </main>
