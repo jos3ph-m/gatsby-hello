@@ -5,7 +5,11 @@ import Layout from '../components/Layout'
 const Contact = () => {
   return (
     <Layout>
-      <h1>Contact page</h1>
+      <main className="page">
+        <section className="contact-page">
+          <h3></h3>
+        </section>
+      </main>
     </Layout>
   )
 }
