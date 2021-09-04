@@ -15,7 +15,9 @@ const Contact = () => {
           </article>
           <article>
             <form action="" className="form contact-form">
-              <div className="form-row"></div>
+              <div className="form-row">
+                <label htmlFor="name">your name</label>
+              </div>
             </form>
           </article>
         </section>
