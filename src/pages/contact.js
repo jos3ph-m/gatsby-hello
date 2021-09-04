@@ -23,6 +23,10 @@ const Contact = () => {
                 <label htmlFor="email">your email</label>
                 <input type="text" name="email" id="email" />
               </div>
+              <div className="form-row">
+                <label htmlFor="message">message</label>
+                <textarea name="message" id="message"></textarea>
+              </div>
             </form>
           </article>
         </section>
