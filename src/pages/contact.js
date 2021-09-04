@@ -20,8 +20,8 @@ const Contact = () => {
                 <input type="text" name="name" id="name" />
               </div>
               <div className="form-row">
-                <label htmlFor="name">your name</label>
-                <input type="text" name="name" id="name" />
+                <label htmlFor="email">your email</label>
+                <input type="text" name="email" id="email" />
               </div>
             </form>
           </article>
