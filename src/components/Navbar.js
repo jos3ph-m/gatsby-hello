@@ -11,6 +11,9 @@ const Navbar = () => {
           <Link to="/">
             <img src={logo} alt="simple recipes" />
           </Link>
+          <button className="nav-btn">
+            <FiAlignJustify/>
+          </button>
         </div>
         <div className="nav-links show-links"></div>
       </div>
