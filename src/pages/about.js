@@ -13,6 +13,7 @@ const About = () => {
             <h2></h2>
             <p></p>
             <p></p>
+            <Link to="/contact" className="btn">contact</Link>
           </article>
         </section>
       </main>
