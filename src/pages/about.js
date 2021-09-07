@@ -8,7 +8,13 @@ const About = () => {
   return (
     <Layout>
       <main className="page">
-        <section className="about-page"></section>
+        <section className="about-page">
+          <article>
+            <h2></h2>
+            <p></p>
+            <p></p>
+          </article>
+        </section>
       </main>
     </Layout>
   )
