@@ -16,7 +16,7 @@ const Navbar = () => {
           </button>
         </div>
         <div className="nav-links show-links">
-          <Link to="/">home</Link>
+          <Link to="/" className="nav-link">home</Link>
         </div>
       </div>
       
