@@ -8,7 +8,7 @@ const About = () => {
   return (
     <Layout>
       <main className="page">
-        <section></section>
+        <section className="about-page"></section>
       </main>
     </Layout>
   )
