@@ -7,7 +7,9 @@ import {Link} from 'gatsby'
 const About = () => {
   return (
     <Layout>
-      <main className="page"></main>
+      <main className="page">
+        <section></section>
+      </main>
     </Layout>
   )
 }
