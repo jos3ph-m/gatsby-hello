@@ -22,7 +22,7 @@ const Navbar = () => {
           <Link to="/tags" className="nav-link" activeClassName="active-link" onClick={() => setShow(false)}>tags</Link>
           <Link to="/about" className="nav-link" activeClassName="active-link" onClick={() => setShow(false)}>about</Link>
           <div className="nav-link contact-link">
-            <Link to="/contact" className="btn">contact</Link>
+            <Link to="/contact" className="btn" onClick={() => setShow(false)}>contact</Link>
           </div>
         </div>
       </div>
