@@ -7,7 +7,11 @@ export default function Home() {
     <Layout>
       <main className="page">
         <header className="hero">
-          <StaticImage src="../assets/images/main.jpeg" />
+          <StaticImage
+            src="../assets/images/main.jpeg"
+            alt="Baking Ingredients"
+            className="hero-img"
+          />
         </header>
       </main>
     </Layout>
