@@ -6,7 +6,9 @@ export default function Home() {
   return (
     <Layout>
       <main className="page">
-        <header className="hero"></header>
+        <header className="hero">
+          <StaticImage />
+        </header>
       </main>
     </Layout>
   )
