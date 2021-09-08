@@ -15,6 +15,7 @@ const About = () => {
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
             <Link to="/contact" className="btn">contact</Link>
           </article>
+          <StaticImage
         </section>
       </main>
     </Layout>
