@@ -11,6 +11,8 @@ export default function Home() {
             src="../assets/images/main.jpeg"
             alt="Baking Ingredients"
             className="hero-img"
+            placeholder="tracedSVG"
+            layout="fullWidth"
           />
         </header>
       </main>
