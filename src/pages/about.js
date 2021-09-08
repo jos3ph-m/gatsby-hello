@@ -23,6 +23,7 @@ const About = () => {
             src="../assets/images/about.jpeg"
             alt="Person Pouring Salt in Bowl"
             className="about-img"
+            placeholder="blurred"
           />
         </section>
       </main>
