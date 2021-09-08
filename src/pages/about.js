@@ -21,7 +21,7 @@ const About = () => {
           </article>
           <StaticImage
             src="../assets/images/about.jpg"
-            alt="Person Pouring Salt"
+            alt="Person Pouring Salt in Bowl"
           />
         </section>
       </main>
