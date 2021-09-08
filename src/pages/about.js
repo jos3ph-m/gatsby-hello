@@ -19,7 +19,7 @@ const About = () => {
               contact
             </Link>
           </article>
-          <StaticImage src="" />
+          <StaticImage src="../assets/images/about.jpg" />
         </section>
       </main>
     </Layout>
