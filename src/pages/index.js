@@ -7,7 +7,7 @@ export default function Home() {
     <Layout>
       <main className="page">
         <header className="hero">
-          <StaticImage />
+          <StaticImage src="../assets/images/main.jpeg" />
         </header>
       </main>
     </Layout>
