@@ -19,7 +19,10 @@ const About = () => {
               contact
             </Link>
           </article>
-          <StaticImage src="../assets/images/about.jpg" alt="Person" />
+          <StaticImage
+            src="../assets/images/about.jpg"
+            alt="Person Pouring Salt"
+          />
         </section>
       </main>
     </Layout>
