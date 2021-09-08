@@ -20,7 +20,7 @@ const About = () => {
             </Link>
           </article>
           <StaticImage
-            src="../assets/images/about.jpg"
+            src="../assets/images/about.jpeg"
             alt="Person Pouring Salt in Bowl"
           />
         </section>
