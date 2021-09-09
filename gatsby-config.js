@@ -6,11 +6,11 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {},
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-styled-components`,
-
   ],
 }
