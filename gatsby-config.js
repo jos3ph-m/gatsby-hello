@@ -6,7 +6,9 @@
 
 module.exports = {
   /* Your site config here */
-  siteMetadata: {},
+  siteMetadata: {
+    title: "Simple Recipes",
+  },
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
