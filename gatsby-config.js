@@ -12,6 +12,10 @@ module.exports = {
     author: "@jos3ph_m",
     person: { name: "joey", age: 35 },
     simpleData: ["item 1", "item 2"],
+    complexData: [
+      { name: "audrey", age: 31 },
+      { name: "ritmin", age: 14 },
+    ],
   },
   plugins: [
     `gatsby-plugin-image`,
