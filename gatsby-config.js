@@ -8,6 +8,7 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: "Simple Recipes",
+    description: "Clean recipes",
   },
   plugins: [
     `gatsby-plugin-image`,
