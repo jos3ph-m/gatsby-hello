@@ -27,7 +27,13 @@ const ComponentName = () => {
       <h2>{data.site.siteMetadata.person.name}</h2>
       <h4>{data.site.siteMetadata.complexData[0].name}</h4>
       <h4>
-        {data.site.siteMetadata.complexData.map(piece => `${piece.name} `)}
+        {data.site.siteMetadata.complexData.map((item, index) => {
+          return (
+            <p key={index}>
+              {item.name} is {item.age} years old...
+            </p>
+          )
+        })}
       </h4>
     </div>
   )
