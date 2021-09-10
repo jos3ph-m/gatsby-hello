@@ -25,6 +25,7 @@ const ComponentName = () => {
   return (
     <div>
       <h2>{data.site.siteMetadata.person.name}</h2>
+      <h4>{data.site.siteMetadata.complexData[0].name}</h4>
     </div>
   )
 }
