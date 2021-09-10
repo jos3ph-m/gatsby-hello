@@ -22,6 +22,7 @@ export default function Home() {
             </div>
           </div>
         </header>
+        <FetchData />
       </main>
     </Layout>
   )
