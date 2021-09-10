@@ -22,7 +22,7 @@ const ComponentName = () => {
       }
     }
   `)
-  return <pre>{JSON.stringify(data, null, 4)}</pre>
+  return <div></div>
 }
 
 export default ComponentName
