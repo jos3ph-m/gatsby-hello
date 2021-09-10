@@ -24,7 +24,7 @@ const ComponentName = () => {
   `)
   return (
     <div>
-      <h2>{data.site.siteMetadata}</h2>
+      <h2>{data.site.siteMetadata.person.name}</h2>
     </div>
   )
 }
