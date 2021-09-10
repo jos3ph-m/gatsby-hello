@@ -22,7 +22,11 @@ const ComponentName = () => {
       }
     }
   `)
-  return <div></div>
+  return (
+    <div>
+      <h2>{data.site.siteMetadata}</h2>
+    </div>
+  )
 }
 
 export default ComponentName
