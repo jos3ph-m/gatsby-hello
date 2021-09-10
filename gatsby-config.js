@@ -9,7 +9,7 @@ module.exports = {
   siteMetadata: {
     title: "Simple Recipes",
     description: "Nice and clean recipes site",
-    author: "Joseph @jos3ph_m",
+    author: "@jos3ph_m",
     person: { name: "joey", age: 35 },
     simpleData: ["item 1", "item 2"],
     complexData: [
