@@ -1,7 +1,26 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
-const getData = graphql``
+const getData = graphql`
+  {
+    site {
+      siteMetadata {
+        title
+        description
+        author
+        person {
+          name
+          age
+        }
+        simpleData
+        complexData {
+          name
+          age
+        }
+      }
+    }
+  }
+`
 
 const fetchData = () => {
   return (
