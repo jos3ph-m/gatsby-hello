@@ -23,7 +23,7 @@ const getData = graphql`
 `
 
 const fetchData = () => {
-  const data
+  const data = useStaticQuery()
   return (
     <div>
       <h1>Hello from fetchData</h1>
