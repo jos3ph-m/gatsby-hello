@@ -23,6 +23,7 @@ const getData = graphql`
 `
 
 const fetchData = () => {
+  const data
   return (
     <div>
       <h1>Hello from fetchData</h1>
