@@ -31,4 +31,4 @@ const FetchData = () => {
   )
 }
 
-export default fetchData
+export default FetchData
