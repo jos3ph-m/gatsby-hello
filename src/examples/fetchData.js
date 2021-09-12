@@ -25,7 +25,7 @@ const getData = graphql`
 const FetchData = () => {
   const {
     site: {
-      siteMetadata: { title },
+      info: { title },
     },
   } = useStaticQuery(getData)
   return (
