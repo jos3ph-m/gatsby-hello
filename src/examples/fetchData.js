@@ -30,7 +30,7 @@ const FetchData = () => {
   } = useStaticQuery(getData)
   return (
     <div>
-      {/* <h2>Name: {data.site.siteMetadata.person.name}</h2>*/}
+      {/* <h2>Name: {data.site.info.person.name}</h2>*/}
       <h2>Site title is: {title}</h2>
     </div>
   )
