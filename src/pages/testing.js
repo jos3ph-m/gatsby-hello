@@ -2,10 +2,10 @@ import React from "react"
 import { graphql } from "gatsby"
 
 const Testing = ({ data }) => {
-  console.log(data)
+  const author = data.site.info.author
   return (
     <div>
-      <h2>testing</h2>
+      <h2>author: {author}</h2>
     </div>
   )
 }
