@@ -1,12 +1,13 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/Layout"
+import Gallery from "../examples/Gallery"
 
 const Testing = ({ data }) => {
   return (
-    <div>
+    <Layout>
       <h2>author: </h2>
-    </div>
+    </Layout>
   )
 }
 
