@@ -6,7 +6,7 @@ import Gallery from "../examples/Gallery"
 const Testing = ({ data }) => {
   return (
     <Layout>
-      <h2>author: </h2>
+      <Gallery />
     </Layout>
   )
 }
