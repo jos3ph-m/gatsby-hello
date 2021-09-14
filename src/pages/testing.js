@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import Layout from "../components/Layout"
 
 const Testing = ({ data }) => {
   const author = data.site.info.author
