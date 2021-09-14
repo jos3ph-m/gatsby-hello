@@ -3,10 +3,9 @@ import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 
 const Testing = ({ data }) => {
-  const author = data.site.info.author
   return (
     <div>
-      <h2>author: {author}</h2>
+      <h2>author: </h2>
     </div>
   )
 }
