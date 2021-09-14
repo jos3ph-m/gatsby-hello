@@ -10,24 +10,4 @@ const Testing = ({ data }) => {
   )
 }
 
-export const data = graphql`
-  query {
-    site {
-      info: siteMetadata {
-        title
-        description
-        author
-        person {
-          name
-          age
-        }
-        simpleData
-        complexData {
-          name
-          age
-        }
-      }
-    }
-  }
-`
 export default Testing
