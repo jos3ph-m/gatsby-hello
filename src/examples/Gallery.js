@@ -26,7 +26,9 @@ const Gallery = () => {
   const nodes = data.allFile.nodes
   return (
     <Wrapper>
-      <h2>simple image gallery</h2>
+      {nodes.map((image, index) => {
+        return <article></article>
+      })}
     </Wrapper>
   )
 }
