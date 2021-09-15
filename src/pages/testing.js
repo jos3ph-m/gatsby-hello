@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import Gallery from "../examples/Gallery"
 
-const Testing = ({ data }) => {
+const Testing = () => {
   return (
     <Layout>
       <Gallery />
