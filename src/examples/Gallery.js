@@ -31,4 +31,6 @@ const Gallery = () => {
   )
 }
 
+const Wrapper = styled.section``
+
 export default Gallery
