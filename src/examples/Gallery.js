@@ -23,7 +23,7 @@ const query = graphql`
 
 const Gallery = () => {
   const data = useStaticQuery(query)
-  console.log(data)
+  const nodes = data
   return (
     <Wrapper>
       <h2>simple image gallery</h2>
