@@ -25,9 +25,9 @@ const Gallery = () => {
   const data = useStaticQuery(query)
   console.log(data)
   return (
-    <div>
+    <Wrapper>
       <h2>simple image gallery</h2>
-    </div>
+    </Wrapper>
   )
 }
 
