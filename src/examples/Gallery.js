@@ -12,6 +12,7 @@ const query = graphql`
             layout: FIXED
             placeholder: BLURRED
             transformOptions: { grayscale: true }
+            width: 200
           )
         }
       }
