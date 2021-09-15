@@ -1,5 +1,22 @@
 import React from "react"
 
+const query = graphql`
+  {
+    allFile(filter: { extension: { ne: "svg" } }) {
+      nodes {
+        name
+        childrenImageSharp {
+          gatsbyImageData(
+            layout: FIXED
+            placeholder: BLURRED
+            transformOptions: { grayscale: true }
+          )
+        }
+      }
+    }
+  }
+`
+
 const Gallery = () => {
   return (
     <div>
