@@ -6,7 +6,9 @@ import Gallery from "../examples/Gallery"
 const Testing = () => {
   return (
     <Layout>
-      <Gallery />
+      <main className="page">
+        <Gallery />
+      </main>
     </Layout>
   )
 }
