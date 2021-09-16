@@ -39,6 +39,9 @@ const Gallery = () => {
   )
 }
 
-const Wrapper = styled.section``
+const Wrapper = styled.section`
+  display: flex;
+  flex-wrap: wrap;
+`
 
 export default Gallery
