@@ -30,7 +30,7 @@ const Gallery = () => {
         const { name } = image
         return (
           <article key={index}>
-            <p>single image</p>
+            <p>{name}</p>
           </article>
         )
       })}
