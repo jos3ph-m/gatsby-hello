@@ -49,6 +49,9 @@ const Wrapper = styled.section`
   .item {
     margin-right: 1rem;
   }
+  .gallery-img {
+    border-radius: 1rem;
+  }
 `
 
 export default Gallery
