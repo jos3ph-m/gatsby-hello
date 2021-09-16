@@ -27,6 +27,7 @@ const Gallery = () => {
   return (
     <Wrapper>
       {nodes.map((image, index) => {
+        const { name } = image
         return (
           <article key={index}>
             <p>single image</p>
