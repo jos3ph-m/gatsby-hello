@@ -30,6 +30,7 @@ const Gallery = () => {
         const { name } = image
         return (
           <article key={index}>
+            <GatsbyImage />
             <p>{name}</p>
           </article>
         )
