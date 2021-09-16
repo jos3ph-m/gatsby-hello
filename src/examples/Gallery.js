@@ -14,6 +14,7 @@ const query = graphql`
             placeholder: BLURRED
             transformOptions: { grayscale: true }
             width: 200
+            height: 200
           )
         }
       }
