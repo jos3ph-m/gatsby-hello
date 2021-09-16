@@ -29,7 +29,7 @@ const Gallery = () => {
       {nodes.map((image, index) => {
         const { name } = image
         return (
-          <article key={index}>
+          <article key={index} className="item">
             <GatsbyImage
               image={image.childImageSharp.gatsbyImageData}
               alt={name}
