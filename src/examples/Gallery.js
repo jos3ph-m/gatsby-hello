@@ -8,7 +8,7 @@ const query = graphql`
     allFile(filter: { extension: { ne: "svg" } }) {
       nodes {
         name
-        childrenImageSharp {
+        childImageSharp {
           gatsbyImageData(
             layout: FIXED
             placeholder: BLURRED
