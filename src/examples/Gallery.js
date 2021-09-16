@@ -33,6 +33,7 @@ const Gallery = () => {
             <GatsbyImage
               image={image.childImageSharp.gatsbyImageData}
               alt={name}
+              className="gallery-img"
             />
             <p>{name}</p>
           </article>
