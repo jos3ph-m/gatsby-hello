@@ -47,7 +47,7 @@ const Wrapper = styled.section`
   display: flex;
   flex-wrap: wrap;
   .item {
-    margin: 1rem;
+    margin-right: 1rem;
   }
 `
 
