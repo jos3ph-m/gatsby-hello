@@ -30,7 +30,10 @@ const Gallery = () => {
         const { name } = image
         return (
           <article key={index}>
-            <GatsbyImage image={image.childImageSharp.gatsbyImageData} />
+            <GatsbyImage
+              image={image.childImageSharp.gatsbyImageData}
+              alt={name}
+            />
             <p>{name}</p>
           </article>
         )
