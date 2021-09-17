@@ -32,7 +32,7 @@ const Gallery = () => {
         return (
           <article key={index} className="item">
             <GatsbyImage
-              image={image.childImageSharp.gatsbyImageData}
+              image={pathToImage}
               alt={name}
               className="gallery-img"
             />
