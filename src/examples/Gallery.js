@@ -28,6 +28,7 @@ const Gallery = () => {
     <Wrapper>
       {nodes.map((image, index) => {
         const { name } = image
+        const pathToImage = getImage(image)
         return (
           <article key={index} className="item">
             <GatsbyImage
