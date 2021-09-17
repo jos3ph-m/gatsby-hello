@@ -1,5 +1,6 @@
 # gatsby-hello
 
+A recipes app.
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
