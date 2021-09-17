@@ -1,6 +1,6 @@
 # gatsby-hello
 
-A recipes app designed to better understand and utilize Gatsby.
+A recipes app that utilizes Gatsby.
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
