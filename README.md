@@ -1,6 +1,6 @@
 # gatsby-hello
 
-A recipes app in order to better understand Gatsby.
+Recipes app.
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
