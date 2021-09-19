@@ -1,6 +1,6 @@
 import React from "react"
 import TagsList from "./TagsList"
-import RecipesList.js from './RecipesList'
+import RecipesList from "./RecipesList"
 
 const AllRecipes = () => {
   return (
