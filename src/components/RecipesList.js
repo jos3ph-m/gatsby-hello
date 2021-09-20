@@ -7,7 +7,7 @@ const RecipesList = ({ recipes = [] }) => {
     <div className="recipes-list">
       {recipes.map(recipe => {
         const { id, title, image, prepTime, cookTime } = recipe
-        return <p>{recipe.title}</p>
+        return <Link to={`/${title}`}>{recipe.title}</Link>
       })}
     </div>
   )
