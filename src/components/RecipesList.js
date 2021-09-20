@@ -14,6 +14,7 @@ const RecipesList = ({ recipes = [] }) => {
               className="recipe-img"
               alt={title}
             />
+            <h5>{title}</h5>
           </Link>
         )
       })}
