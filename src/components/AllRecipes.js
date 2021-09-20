@@ -27,9 +27,8 @@ const AllRecipes = () => {
   const recipes = data.allContentfulRecipe.nodes
   return (
     <div>
-      <h4>all recipes</h4>
-      <TagsList />
-      <RecipesList />
+      <TagsList recipes={recipes} />
+      <RecipesList recipes={recipes} />
     </div>
   )
 }
