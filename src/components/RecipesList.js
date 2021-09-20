@@ -9,7 +9,11 @@ const RecipesList = ({ recipes = [] }) => {
         const { id, title, image, prepTime, cookTime } = recipe
         return (
           <Link key={id} to={`/${title}`} className="recipe">
-            <GatsbyImage image={image.gatsbyImageData} className="recipe-img" />
+            <GatsbyImage
+              image={image.gatsbyImageData}
+              className="recipe-img"
+              alt={title}
+            />
           </Link>
         )
       })}
