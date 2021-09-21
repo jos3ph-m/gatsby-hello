@@ -50,6 +50,10 @@ const Contact = ({ data }) => {
             </form>
           </article>
         </section>
+        <section className="featured-recipes">
+          <h5>Look at these awesome recipes!</h5>
+          <RecipesList recipes={recipes} />
+        </section>
       </main>
     </Layout>
   )
