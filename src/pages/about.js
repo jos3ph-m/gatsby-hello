@@ -27,6 +27,9 @@ const About = () => {
             placeholder="blurred"
           />
         </section>
+        <section className="featured-recipes">
+          <h5>Look at this sauce</h5>
+        </section>
       </main>
     </Layout>
   )
