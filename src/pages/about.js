@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import { Link, graphql } from "gatsby"
 import RecipesList from "../components/RecipesList"
 
-const About = () => {
+const About = ({ data }) => {
   return (
     <Layout>
       <main className="page">
