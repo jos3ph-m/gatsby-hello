@@ -54,4 +54,24 @@ const Contact = () => {
   )
 }
 
+export const query = graphql`
+  {
+    allContentfulRecipe(
+      sort: { fields: title, order: ASC }
+      filter: { featured: { eq: true } }
+    ) {
+      nodes {
+        id
+        title
+        cookTime
+        prepTime
+        image {
+          gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)
+        }
+      }
+      totalCount
+    }
+  }
+`
+
 export default Contact
