@@ -33,14 +33,14 @@ const About = ({
         </section>
         <section className="featured-recipes">
           <h5>Look at these awesome recipes!</h5>
-          <RecipesList />
+          <RecipesList recipes={recipes} />
         </section>
       </main>
     </Layout>
   )
 }
 
-const query = graphql`
+export const query = graphql`
   {
     allContentfulRecipe(
       sort: { fields: title, order: ASC }
