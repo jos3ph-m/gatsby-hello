@@ -1,6 +1,7 @@
-import React from 'react'
-import Layout from '../components/Layout'
-
+import React from "react"
+import Layout from "../components/Layout"
+import { Link, graphql } from "gatsby"
+import RecipesList from "../components/RecipesList"
 
 const Contact = () => {
   return (
@@ -8,10 +9,25 @@ const Contact = () => {
       <main className="page">
         <section className="contact-page">
           <article className="contact-info">
-          <h3>Want to get in touch?</h3>
-          <p>I'm baby gastropub subway tile bespoke dolor williamsburg anim selfies cred dolore intelligentsia roof party YOLO hell of irony. Minim typewriter narwhal letterpress, single-origin coffee hammock meh cloud bread eu vegan forage aute try-hard ipsum.</p>
-          <p>Irony food truck et cronut laboris pok pok beard, waistcoat eu aliqua.</p>
-          <p>Synth kogi letterpress church-key activated charcoal man bun typewriter fugiat mollit. Ut DIY prism stumptown irony. Gastropub tbh distillery non. Photo booth tacos craft beer, cornhole aesthetic cold-pressed nulla glossier. Art party iPhone vexillologist, pickled scenester selfies next level marfa tote bag velit taxidermy readymade slow-carb adaptogen cupidatat.</p>
+            <h3>Want to get in touch?</h3>
+            <p>
+              I'm baby gastropub subway tile bespoke dolor williamsburg anim
+              selfies cred dolore intelligentsia roof party YOLO hell of irony.
+              Minim typewriter narwhal letterpress, single-origin coffee hammock
+              meh cloud bread eu vegan forage aute try-hard ipsum.
+            </p>
+            <p>
+              Irony food truck et cronut laboris pok pok beard, waistcoat eu
+              aliqua.
+            </p>
+            <p>
+              Synth kogi letterpress church-key activated charcoal man bun
+              typewriter fugiat mollit. Ut DIY prism stumptown irony. Gastropub
+              tbh distillery non. Photo booth tacos craft beer, cornhole
+              aesthetic cold-pressed nulla glossier. Art party iPhone
+              vexillologist, pickled scenester selfies next level marfa tote bag
+              velit taxidermy readymade slow-carb adaptogen cupidatat.
+            </p>
           </article>
           <article>
             <form action="" className="form contact-form">
@@ -37,6 +53,5 @@ const Contact = () => {
     </Layout>
   )
 }
-
 
 export default Contact
