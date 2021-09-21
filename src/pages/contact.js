@@ -3,7 +3,8 @@ import Layout from "../components/Layout"
 import { Link, graphql } from "gatsby"
 import RecipesList from "../components/RecipesList"
 
-const Contact = () => {
+const Contact = ({ data }) => {
+  const recipes = data.allContentfulRecipe.nodes
   return (
     <Layout>
       <main className="page">
