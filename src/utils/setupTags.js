@@ -1,4 +1,6 @@
 const setupTags = recipes => {
+  const allTags = {}
+
   return recipes
 }
 
