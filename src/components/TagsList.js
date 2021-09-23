@@ -11,7 +11,7 @@ const TagsList = ({ recipes }) => {
         {newTags.map((tag, index) => {
           const [text, value] = tag
           return (
-            <Link key={index}>
+            <Link to={`/${text}`} key={index}>
               {text}({value})
             </Link>
           )
