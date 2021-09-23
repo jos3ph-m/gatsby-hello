@@ -12,6 +12,7 @@ const setupTags = recipes => {
   })
 
   const newTags = Object.entries(allTags)
+  console.log(allTags)
 
   return recipes
 }
