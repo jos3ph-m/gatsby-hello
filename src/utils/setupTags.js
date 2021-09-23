@@ -13,6 +13,7 @@ const setupTags = recipes => {
 
   const newTags = Object.entries(allTags).sort((a, b) => {
     const [firstTag] = a
+    const [secondTag] = b
   })
   console.log(allTags)
 
