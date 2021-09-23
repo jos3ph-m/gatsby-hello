@@ -11,6 +11,8 @@ const setupTags = recipes => {
     })
   })
 
+  const newTags = Object.entries()
+
   return recipes
 }
 
