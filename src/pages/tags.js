@@ -5,6 +5,7 @@ import setupTags from '../utils/setupTags'
 
 
 const Tags = () => {
+  const newTags = setupTags()
   return (
     <Layout>
       <h1>tags page</h1>
