@@ -8,7 +8,7 @@ const Tags = ({data}) => {
   const newTags = setupTags(data.allContentfulRecipe.nodes)
   return (
     <Layout>
-      <main></main>
+      <main className="page"></main>
     </Layout>
   )
 }
