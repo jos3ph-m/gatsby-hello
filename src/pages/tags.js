@@ -11,6 +11,7 @@ const Tags = ({ data }) => {
         <section className="tags-page">
           {newTags.map(tag,index) => {
             const [text, value] = tag
+            return <Link></Link>
           }}
         </section>
       </main>
