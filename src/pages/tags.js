@@ -8,7 +8,11 @@ const Tags = ({ data }) => {
   return (
     <Layout>
       <main className="page">
-        <section className="tags-page"></section>
+        <section className="tags-page">
+          {newTags.map(tag,index) => {
+            const [text, value] = tag
+          }}
+        </section>
       </main>
     </Layout>
   )
