@@ -10,5 +10,16 @@ const Tags = () => {
   )
 }
 
+export const query = graphql`
+  {
+    allContentfulRecipe {
+      nodes {
+        content {
+          tags
+        }
+      }
+    }
+  }
+
 
 export default Tags
