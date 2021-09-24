@@ -5,7 +5,7 @@ import setupTags from '../utils/setupTags'
 
 
 const Tags = ({data}) => {
-  const newTags = setupTags(data.allContentful.nodes)
+  const newTags = setupTags(data.allContentfulRecipe.nodes)
   return (
     <Layout>
       <h1>tags page</h1>
