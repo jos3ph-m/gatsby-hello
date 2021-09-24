@@ -4,8 +4,8 @@ import { graphql, Link } from 'gatsby'
 import setupTags from '../utils/setupTags'
 
 
-const Tags = () => {
-  const newTags = setupTags()
+const Tags = ({data}) => {
+  const newTags = setupTags(data.allContentful.nodes)
   return (
     <Layout>
       <h1>tags page</h1>
