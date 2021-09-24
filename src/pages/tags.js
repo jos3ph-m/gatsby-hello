@@ -1,10 +1,9 @@
-import React from 'react'
-import Layout from '../components/Layout'
-import { graphql, Link } from 'gatsby'
-import setupTags from '../utils/setupTags'
+import React from "react"
+import Layout from "../components/Layout"
+import { graphql, Link } from "gatsby"
+import setupTags from "../utils/setupTags"
 
-
-const Tags = ({data}) => {
+const Tags = ({ data }) => {
   const newTags = setupTags(data.allContentfulRecipe.nodes)
   return (
     <Layout>
@@ -23,6 +22,6 @@ export const query = graphql`
       }
     }
   }
-
+`
 
 export default Tags
