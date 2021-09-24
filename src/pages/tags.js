@@ -9,10 +9,15 @@ const Tags = ({ data }) => {
     <Layout>
       <main className="page">
         <section className="tags-page">
-          {newTags.map(tag,index) => {
+          {newTags.map((tag, index) => {
             const [text, value] = tag
-            return <Link></Link>
-          }}
+            return (
+              <Link to={`/${text}`}>
+                <h5>{text}</h5>
+                <p>{value} recipe</p>
+              </Link>
+            )
+          })}
         </section>
       </main>
     </Layout>
