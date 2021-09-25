@@ -3,7 +3,7 @@ import React from "react"
 const RecipeTemplate = () => {
   return (
     <div>
-      <h4>recipe template</h4>
+      <h4>recipe template setup</h4>
     </div>
   )
 }
