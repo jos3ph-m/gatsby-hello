@@ -9,4 +9,13 @@ const RecipeTemplate = props => {
   )
 }
 
+export const query = graphql`
+  query getSingleRecipe($title: String) {
+    contentfulRecipe(title: { eq: $title }) {
+      title
+      cookTime
+    }
+  }
+`
+
 export default RecipeTemplate
