@@ -1,6 +1,6 @@
 import React from "react"
 
-const RecipeTemplate = () => {
+const RecipeTemplate = props => {
   return (
     <div>
       <h4>A recipe will live here...</h4>
