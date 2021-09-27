@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-const RecipeTemplate = props => {
+const RecipeTemplate = ({ data }) => {
   console.log(props)
   return (
     <div>
