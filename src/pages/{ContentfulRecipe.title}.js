@@ -4,6 +4,7 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { BsClockHistory, BsClock, BsPeople } from "react-icons/bs"
 
 const RecipeTemplate = ({ data }) => {
+  const {} = data
   return <div></div>
 }
 
