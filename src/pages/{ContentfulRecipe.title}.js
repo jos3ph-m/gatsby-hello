@@ -27,7 +27,8 @@ const RecipeTemplate = ({ data }) => {
               <div className="recipe-icons">
                 <article>
                   <BsClock />
-                  <h5></h5>
+                  <h5>prep time</h5>
+                  <p>{prepTime} min</p>
                 </article>
               </div>
               {/* tags */}
