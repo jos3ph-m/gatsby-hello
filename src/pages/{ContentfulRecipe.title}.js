@@ -6,6 +6,7 @@ import { BsClockHistory, BsClock, BsPeople } from "react-icons/bs"
 const RecipeTemplate = ({ data }) => {
   const { title, cookTime, content, prepTime, servings, description, image } =
     data.contentfulRecipe
+  const pathToImage = getImage(image)
   return <div></div>
 }
 
