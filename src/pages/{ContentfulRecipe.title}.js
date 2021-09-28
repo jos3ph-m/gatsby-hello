@@ -23,6 +23,9 @@ const RecipeTemplate = ({ data }) => {
             <article className="recipe-info">
               <h2>{title}</h2>
               <p>{description}</p>
+              {/* icons */}
+              <div className="recipe-icons"></div>
+              {/* tags */}
             </article>
           </section>
           {/* rest of the content */}
