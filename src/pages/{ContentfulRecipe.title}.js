@@ -30,6 +30,17 @@ const RecipeTemplate = ({ data }) => {
                   <h5>prep time</h5>
                   <p>{prepTime} min</p>
                 </article>
+
+                <article>
+                  <BsClock />
+                  <h5>cook time</h5>
+                  <p>{cookTime} min</p>
+                </article>
+                <article>
+                  <BsPeople />
+                  <h5>servings</h5>
+                  <p>{servings}</p>
+                </article>
               </div>
               {/* tags */}
               <p className="recipe-tags">
