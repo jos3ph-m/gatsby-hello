@@ -27,8 +27,13 @@ const RecipeTemplate = ({ data }) => {
               <div className="recipe-icons"></div>
               {/* tags */}
               <p className="recipe-tags">
+                Tags:
                 {tags.map((tag, index) => {
-                  return
+                  return (
+                    <Link to={`/${tag}`} key={index}>
+                      {tag}
+                    </Link>
+                  )
                 })}
               </p>
             </article>
