@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { BsClockHistory, BsClock, BsPeople } from "react-icons/bs"
 import Layout from "../components/Layout"
@@ -26,6 +26,11 @@ const RecipeTemplate = ({ data }) => {
               {/* icons */}
               <div className="recipe-icons"></div>
               {/* tags */}
+              <p className="recipe-tags">
+                {tags.map((tag, index) => {
+                  return
+                })}
+              </p>
             </article>
           </section>
           {/* rest of the content */}
