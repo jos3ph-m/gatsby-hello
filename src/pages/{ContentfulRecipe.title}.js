@@ -16,6 +16,7 @@ const RecipeTemplate = ({ data }) => {
           {/* hero */}
           <section className="recipe-hero"></section>
           {/* rest of the content */}
+          <section className="recipe-content"></section>
         </div>
       </main>
     </Layout>
