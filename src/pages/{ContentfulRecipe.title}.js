@@ -8,7 +8,13 @@ const RecipeTemplate = ({ data }) => {
     data.contentfulRecipe
   const pathToImage = getImage(image)
   const { tags, instructions, ingredients, tools } = content
-  return <main></main>
+  return (
+    <main className="page">
+      <div className="recipe-page">
+        <h2>{title}</h2>
+      </div>
+    </main>
+  )
 }
 
 export const query = graphql`
