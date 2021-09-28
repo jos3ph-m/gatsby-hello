@@ -10,11 +10,11 @@ const RecipeTemplate = ({ data }) => {
   const pathToImage = getImage(image)
   const { tags, instructions, ingredients, tools } = content
   return (
-    <main className="page">
-      <div className="recipe-page">
-        <h2>{title}</h2>
-      </div>
-    </main>
+    <Layout>
+      <main className="page">
+        <div className="recipe-page">{}</div>
+      </main>
+    </Layout>
   )
 }
 
