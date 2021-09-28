@@ -12,7 +12,11 @@ const RecipeTemplate = ({ data }) => {
   return (
     <Layout>
       <main className="page">
-        <div className="recipe-page">{}</div>
+        <div className="recipe-page">
+          {/* hero */}
+          <section className="recipe-hero"></section>
+          {/* rest of the content */}
+        </div>
       </main>
     </Layout>
   )
