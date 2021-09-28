@@ -15,7 +15,11 @@ const RecipeTemplate = ({ data }) => {
         <div className="recipe-page">
           {/* hero */}
           <section className="recipe-hero">
-            <GatsbyImage imge={pathToImage} alt={title} />
+            <GatsbyImage
+              image={pathToImage}
+              alt={title}
+              className="about-img"
+            />
             <article className="recipe-info">
               <h2>{title}</h2>
               <p>{description}</p>
