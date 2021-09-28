@@ -14,7 +14,9 @@ const RecipeTemplate = ({ data }) => {
       <main className="page">
         <div className="recipe-page">
           {/* hero */}
-          <section className="recipe-hero"></section>
+          <section className="recipe-hero">
+            <GatsbyImage imge={pathToImage} alt={title} />
+          </section>
           {/* rest of the content */}
           <section className="recipe-content"></section>
         </div>
