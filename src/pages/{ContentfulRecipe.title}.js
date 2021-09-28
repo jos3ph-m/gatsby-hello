@@ -18,6 +18,7 @@ const RecipeTemplate = ({ data }) => {
             <GatsbyImage imge={pathToImage} alt={title} />
             <article className="recipe-info">
               <h2>{title}</h2>
+              <p>{description}</p>
             </article>
           </section>
           {/* rest of the content */}
