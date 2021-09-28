@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { BsClockHistory, BsClock, BsPeople } from "react-icons/bs"
+import Layout from "../components/Layout"
 
 const RecipeTemplate = ({ data }) => {
   const { title, cookTime, content, prepTime, servings, description, image } =
