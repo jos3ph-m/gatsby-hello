@@ -55,7 +55,7 @@ const RecipeTemplate = ({ data }) => {
               </p>
             </article>
           </section>
-          {/* rest of the content */}
+          {/* rest of content */}
           <section className="recipe-content">
             <article>
               <h4>instructions</h4>
