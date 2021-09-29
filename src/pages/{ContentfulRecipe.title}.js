@@ -58,6 +58,7 @@ const RecipeTemplate = ({ data }) => {
           {/* rest of the content */}
           <section className="recipe-content">
             <article></article>
+            <article className="second-column"></article>
           </section>
         </div>
       </main>
