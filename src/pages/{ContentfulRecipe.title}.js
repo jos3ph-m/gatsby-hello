@@ -57,7 +57,14 @@ const RecipeTemplate = ({ data }) => {
           </section>
           {/* rest of the content */}
           <section className="recipe-content">
-            <article></article>
+            <article>
+              <h4>instructions</h4>
+              {
+                ingredients.map((map.index) => {
+                  return <div key={index}></div>
+                })
+              }
+            </article>
             <article className="second-column"></article>
           </section>
         </div>
