@@ -64,7 +64,9 @@ const RecipeTemplate = ({ data }) => {
                   return <div key={index} className="single-instruction">
                     <header>
                       <p>step {index + 1}</p>
+                      <div></div>
                     </header>
+                    <p>{item}</p>
                   </div>
                 })
               }
