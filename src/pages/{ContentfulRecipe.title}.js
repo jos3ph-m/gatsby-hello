@@ -83,10 +83,10 @@ const RecipeTemplate = ({ data }) => {
                 })}
               </div>
               <div>
-                <h4>ingredients</h4>
-                {ingredients.map((item, index) => {
+                <h4>tools</h4>
+                {tools.map((item, index) => {
                   return (
-                    <p key={index} className="single-ingredient">
+                    <p key={index} className="single-tool">
                       {item}
                     </p>
                   )
