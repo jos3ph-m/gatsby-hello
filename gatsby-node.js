@@ -13,5 +13,11 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `)
 
-  result.data.allContentfulRecipe.nodes.forEach(recipe => {})
+  result.data.allContentfulRecipe.nodes.forEach(recipe => {
+    recipe.content.tags.forEach(tag => {
+      createPage({
+        path: `/${tag}`,
+      })
+    })
+  })
 }
