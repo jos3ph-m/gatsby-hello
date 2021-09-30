@@ -17,6 +17,7 @@ exports.createPages = async ({ graphql, actions }) => {
     recipe.content.tags.forEach(tag => {
       createPage({
         path: `/${tag}`,
+        component:
       })
     })
   })
