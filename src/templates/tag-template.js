@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import RecipesList from "../components/RecipesList"
 
 const TagTemplate = props => {
   return (
