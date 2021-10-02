@@ -9,6 +9,7 @@ const TagTemplate = ({ data }) => {
     <Layout>
       <main className="page">
         <h2>tag name</h2>
+        <div className="tag-recipes"></div>
       </main>
     </Layout>
   )
