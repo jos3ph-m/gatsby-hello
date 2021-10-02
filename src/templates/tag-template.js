@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import RecipesList from "../components/RecipesList"
+import Layout from "../components/Layout"
 
 const TagTemplate = ({ data }) => {
   const recipes = data.allContentfulRecipe.nodes
