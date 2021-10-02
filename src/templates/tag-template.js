@@ -7,7 +7,9 @@ const TagTemplate = ({ data }) => {
   const recipes = data.allContentfulRecipe.nodes
   return (
     <Layout>
-      <h2>tag template page</h2>
+      <main className="page">
+        <h2>tag name</h2>
+      </main>
     </Layout>
   )
 }
