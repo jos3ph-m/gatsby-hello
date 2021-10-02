@@ -2,7 +2,8 @@ import React from "react"
 import { graphql } from "gatsby"
 import RecipesList from "../components/RecipesList"
 
-const TagTemplate = props => {
+const TagTemplate = ({ data }) => {
+  const recipes = data.allContentfulRecipe.nodes
   return (
     <div>
       <h2>tag template page</h2>
