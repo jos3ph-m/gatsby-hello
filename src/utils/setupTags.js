@@ -18,7 +18,7 @@ const setupTags = recipes => {
   })
   console.log(allTags)
 
-  return recipes
+  return newTags
 }
 
 export default setupTags
