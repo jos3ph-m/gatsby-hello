@@ -6,9 +6,9 @@ import Layout from "../components/Layout"
 const TagTemplate = ({ data }) => {
   const recipes = data.allContentfulRecipe.nodes
   return (
-    <div>
+    <Layout>
       <h2>tag template page</h2>
-    </div>
+    </Layout>
   )
 }
 
