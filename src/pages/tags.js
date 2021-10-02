@@ -14,7 +14,7 @@ const Tags = ({ data }) => {
             const [text, value] = tag
             const slug = slugify(text, { lower: true })
             return (
-              <Link to={`/${text}`} key={index} className="tag">
+              <Link to={`/tags/${slug}`} key={index} className="tag">
                 <h5>{text}</h5>
                 <p>{value} recipe</p>
               </Link>
