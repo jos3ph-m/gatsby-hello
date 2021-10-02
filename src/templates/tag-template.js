@@ -3,12 +3,12 @@ import { graphql } from "gatsby"
 import RecipesList from "../components/RecipesList"
 import Layout from "../components/Layout"
 
-const TagTemplate = ({ data }) => {
+const TagTemplate = ({ data, pageContext }) => {
   const recipes = data.allContentfulRecipe.nodes
   return (
     <Layout>
       <main className="page">
-        <h2>tag name</h2>
+        <h2>{pageContext.tag}</h2>
         <div className="tag-recipes">
           <RecipesList recipes={recipes}></RecipesList>
         </div>
