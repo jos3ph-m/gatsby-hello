@@ -47,7 +47,7 @@ module.exports = {
               variants: ["400"],
             },
             {
-              family: "Open Sans Condensed",
+              family: "Inconsolata",
               variants: ["300", "700"],
             },
           ],
