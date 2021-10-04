@@ -44,7 +44,7 @@ module.exports = {
           google: [
             {
               family: "Montserrat",
-              variants: ["300", "400", "500"],
+              variants: ["400"],
             },
             {
               family: "Open Sans Condensed",
