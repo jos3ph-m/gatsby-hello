@@ -48,7 +48,7 @@ module.exports = {
             },
             {
               family: "Inconsolata",
-              variants: ["300", "700"],
+              variants: ["400", "500", "700"],
             },
           ],
         },
