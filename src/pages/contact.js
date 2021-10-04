@@ -22,7 +22,7 @@ const Contact = ({ data }) => {
               aliqua.
             </p>
             <p>
-              Synth kogi letterpress church-key activated charcoal man bun
+              Synth kogi truck letterpress church-key activated charcoal man bun
               typewriter fugiat mollit. Ut DIY prism stumptown irony. Gastropub
               tbh distillery non. Photo booth tacos craft beer, cornhole
               aesthetic cold-pressed nulla glossier. Art party iPhone
