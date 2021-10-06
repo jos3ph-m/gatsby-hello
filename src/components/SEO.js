@@ -14,6 +14,7 @@ const query = graphql`
 `
 
 const SEO = ({ title, description }) => {
+  const { site } = useStaticQuery(query)
   return (
     <Helmet
       htmlAttributes={{ lang: "eng" }}
