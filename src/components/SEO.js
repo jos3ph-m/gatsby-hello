@@ -18,7 +18,7 @@ const SEO = ({ title, description }) => {
   return (
     <Helmet
       htmlAttributes={{ lang: "eng" }}
-      title={title}
+      title={`${title} | ${site.siteMetadata.title}`}
       meta={[{ name: `description`, content: description }]}
     ></Helmet>
   )
