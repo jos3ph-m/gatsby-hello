@@ -1,6 +1,6 @@
 # gatsby-hello
 
-A recipes app - built with GatsbyJS to help learn GatsbyJS.
+Recipes App - built with GatsbyJS to help learn GatsbyJS.
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
