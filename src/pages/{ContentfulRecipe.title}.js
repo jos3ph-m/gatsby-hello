@@ -13,6 +13,7 @@ const RecipeTemplate = ({ data }) => {
   const { tags, instructions, ingredients, tools } = content
   return (
     <Layout>
+      <SEO />
       <main className="page">
         <div className="recipe-page">
           {/* hero */}
