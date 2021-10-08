@@ -3,6 +3,7 @@ import Layout from "../components/Layout"
 import { graphql, Link } from "gatsby"
 import setupTags from "../utils/setupTags"
 import slugify from "slugify"
+import SEO from "../components/SEO"
 
 const Tags = ({ data }) => {
   const newTags = setupTags(data.allContentfulRecipe.nodes)
