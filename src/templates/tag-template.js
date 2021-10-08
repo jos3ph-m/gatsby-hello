@@ -8,6 +8,7 @@ const TagTemplate = ({ data, pageContext }) => {
   const recipes = data.allContentfulRecipe.nodes
   return (
     <Layout>
+      <SEO />
       <main className="page">
         <h2>{pageContext.tag}</h2>
         <div className="tag-recipes">
