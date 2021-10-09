@@ -2,7 +2,7 @@
 
 Recipes App - built with GatsbyJS to help learn GatsbyJS.
 
-Here's some info about GatsbyJS:
+Check out GatsbyJS:
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
