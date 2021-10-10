@@ -1,8 +1,6 @@
 # gatsby-hello
 
-Simply Recipes App - built with Gatsby to help learn Gatsby!
-
-If interested, you can find the live deploy [here.](https://simply-gatsby-recipes.netlify.app/)
+Simply Recipes App - built with Gatsby to help learn Gatsby! If interested, you can find the live deploy [here.](https://simply-gatsby-recipes.netlify.app/)
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
