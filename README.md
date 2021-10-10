@@ -2,6 +2,8 @@
 
 Recipes App, built with Gatsby to help learn Gatsby.
 
+Live deploy [here](https://simply-gatsby-recipes.netlify.app/)
+
 Check out some info on GatsbyJS:
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
