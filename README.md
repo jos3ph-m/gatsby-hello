@@ -2,7 +2,7 @@
 
 Recipes App, built with Gatsby to help learn Gatsby.
 
-Live deploy [here](https://simply-gatsby-recipes.netlify.app/)
+You can find the live deploy [here](https://simply-gatsby-recipes.netlify.app/)
 
 Check out some info on GatsbyJS:
 
