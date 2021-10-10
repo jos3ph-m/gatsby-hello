@@ -4,8 +4,6 @@ Simply Recipes App, built with Gatsby to help learn Gatsby.
 
 You can find the live deploy [here.](https://simply-gatsby-recipes.netlify.app/)
 
-Check out some info on GatsbyJS:
-
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
